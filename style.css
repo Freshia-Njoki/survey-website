@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.top-nav {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 13px;
+  padding-left: 120vh;
+  padding-right: 30px;
+  object-fit: contain;
+  color: white;
+  /* justify-content: space-between; */
+  background-color: #e3823d;
+  font: 13px Lato, sans-serif;
+}
+
+.email {
+  margin-right: 20px;
+}
+
+.top-nav a {
+  color: white;
+}
+
+.logo {
+  height: 100px;
+  padding: 0px, 15px;
+}
+
+.contact img {
+  height: 30px;
+  margin: 10px;
+  border-radius: 16px;
+  color: grey;
+}
+
+.logo p {
+  color: green;
+  font: 13px Lato, sans-serif;
+  font-size: 8px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.nav-right span {
+  padding: 5px;
+  object-fit: cover;
+  color: grey;
+  font-size: 16px;
+}
+
+section {
+  background: linear-gradient(rgba(185, 160, 44, 0.4), rgba(192, 170, 72, 0.4)),
+    url(./images/img2.jpeg);
+  object-fit: fill;
+  width: 100%;
+  height: 80vh;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 0px;
+}
+
+.main {
+  padding: 10px 100px 20px;
+}
+.main h3 {
+  font: 60px Oswald, sans-serif;
+  color: #444444;
+}
+
+.main p {
+  font: 13px Lato, sans-serif;
+  color: #444444;
+}
+
+.main-btn {
+  margin-top: 20px;
+  padding: 10px 24px;
+  color: #ffffff;
+  background-color: #e3823d;
+  border-radius: 8px;
+  border: none;
+}
+
+.about {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 70px 0px;
+}
+
+.about p {
+  font: 13px Lato, sans-serif;
+  color: #666666;
+}
+
+.about h3 {
+  font: 24px Oswald, sans-serif;
+  margin: 0px 0px 10px;
+  padding-bottom: 20px;
+  color: #444444;
+}
+
+.discover-btn {
+  background-color: black;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  margin: 20px;
+}
+
+.about-btns input {
+  padding: 15px 190px 20px 30px;
+  font: 16px Oswald, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  color: #444444;
+  margin-left: 60px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+
+.svc-categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.svc-categories img{
+  /* border: 1px solid grey; */
+  padding: 10px;
+}
+
+.svc-categories input{
+  padding: 15px 10px;
+  margin: 20px;
+  background-color: #e3823d;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    padding-top: 20px;
+    color: white;
+    width: 100%;
+    background-color: black;
+    margin-left: 10px;
+    padding-left: 5px;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.contact {
+    color: grey;
+}
+
+.links{
+    color: grey;
+}
+.footer-img{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.links p{
+    padding: 10px;
+}
+
+.social img{
+    height: 200px;
+    width: 270px;
+}
+
+.final{
+    background-color: black;
+    margin-top: 0px;
+    color: white;
+    height: 100%;
+}
